@@ -1,0 +1,48 @@
+header, main, footer {
+    width: 70%;
+    margin: auto;
+}
+#logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+header {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: bisque;
+    padding: 20px;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px; 
+  color: bisque;
+  padding: 2px;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: bisque;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#000000, #0c8080) no-repeat;
+}
+section {
+  margin: 50px 0;
+}
+section h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  color: bisque;
+  text-align: center;
+}
+#outside-wrapper {
+    border: 5px black dashed;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: bisque;
+}

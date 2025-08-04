@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Valkyrie Eats! - American-style Comfort Food</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        hr {
+            width: 95%;
+            margin: auto;
+        }
+        header {
+            background-color: #a5ab97;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        article {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #000000;
+        }
+        form {
+            padding: 10px;
+            border: 1px solid #000000;
+        }
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            border-radius: 50px;
+        }
+    </style>
+</head> 
+<body>
+    <header>
+        <img id="header-img" src="/Users/cheyennepierce/Desktop/HTML/Images/DALL·E 2025-01-26 15.22.51 - A soft-toned logo design for a restaurant named 'Valkyrie Eats'. The logo should feature a minimalist Valkyrie helmet with elegant wings, subtly blend.webp" alt="Valkyrie Eats">
+        <h1>Valkyrie Eats</h1>
+        <nav>
+            <ul>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#order-form">Order Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Menu</h2> 
+            <article> 
+                <img src="https://livingthegourmet.com/wp-content/uploads/2016/05/Ribeye_Steaks_2.jpe">
+                <h3>Steak and Garlic Potatoes</h3>
+                <p>A classic meal with our own special twist!
+                    A tender and juicy 8oz sirloin accompanied by our house special garlic potatoes and your choice of either seasonal mixed vegetables, asparagus or a side portion of our famous "I don't Know Pasta."
+                    <br/>
+                    <i>$25.99</i>
+                </p>
+            </article>
+            <br/>
+            <article>
+                <img src="https://www.spendwithpennies.com/wp-content/uploads/2021/04/FT-Chicken-Caesar-Salad-SpendWithPennies-4.jpg" alt="Chicken Ceasar Salad">
+                <h3>Hearty Chicken Ceasar</h3>
+                <p>Another classic, our Chicken Ceasar Salad is served with a full pound of delectably seasoned grilled chicken atop a bed of crispy romaine lettuce, and our house-made Ceasar dressing is sure to knock your socks off. 
+                    Parmesean shavings and crunchy garlic croutons top this hearty dish that will leave you satisfied and wanting more!
+                    <br/>
+                    <i>$15.99</i>
+                </p>
+            </article> 
+            <br/>
+            <article>
+                <img src="https://i0.wp.com/auntiechatter.com/wp-content/uploads/2019/04/angelhairwithartichokesandolivesFI.jpeg?w=2220" alt="Angel hair pasta with veggies and garlic cream sauce">
+                <h3>Valkyrie's Famous I Don't Know Pasta!</h3>
+                <p>There once was a chef named Valkyrie who, no matter how she tried, couldn't think of what she wanted to eat. 
+                    So she took a chance and raided her pantry. 
+                    She threw together a little bit of this and a little of that, and thus was born the I Don't Know Pasta! 
+                    A delightful blend of pasta, veggies, and a light garlic cream sauce, this dish is sure to please even the pickiest of eaters. 
+                    Served with a side of garlic bread. 
+                    And if you're feeling adventurous, ask your server to add a protein of your choice! 
+                    (We recommend the grilled chicken or shrimp!)
+                    <br/>
+                    <i>$18.99</i>
+                </p>
+            </article>
+            <br/>
+            <article>
+                <img src="https://www.recipetineats.com/wp-content/uploads/2023/07/Hot-chocolate-fudge-cake_7-2.jpg?resize=317" alt="A slice of rich chocolate cake with a scoop of vanilla ice cream">
+                <h3>Death by Chocolate</h3>
+                <p>Our signature dessert, Death by Chocolate is a rich, moist chocolate cake served with a scoop of our house-made vanilla ice cream. 
+                    The perfect end to a perfect meal, this dessert is sure to satisfy your sweet tooth and leave you feeling like you've died and gone to heaven!
+                    <br/>
+                    <i>$8.99</i>
+                </p>
+            </article>
+            <br/>
+            <article>
+                <img src="https://realfood.tesco.com/media/images/Berry-cheesecakel-558243b3-cc64-45ad-b13e-3bae304f8893-0-1400x919.jpg" alt="A slice of Valkyries famous cheesecake with a berry compote">
+                <h3>Valkyrie's Famous Cheesecake</h3>
+                <p>Our house-made cheesecake is a creamy, dreamy delight that will leave you wanting more. 
+                    Served with your choice of berry compote or a sweet vanilla sour cream topping, this dessert is the perfect way to end your meal.
+                    <br/>
+                    <i>$7.99</i>
+                </p>
+            </article>
+        </section>
+        <br/>
+        <section>
+            <h2>Place Your Order</h2>
+            <form>
+                <label>Steak and Garlic Potatoes</label>
+                <input type="number" min="0" required>
+                <br /><br />
+                How would you like your steak cooked?<br>
+                <input type="radio" required> Rare<br>
+                <input type="radio" required> Medium Rare<br>
+                <input type="radio" required> Medium<br>
+                <input type="radio" required> Medium Well<br>
+                <input type="radio" required> Well Done<br>
+                <br /><br />
+                Choose a side or add-on:<br>
+                <input type="checkbox" required> Seasonal Mixed Vegetables<br>
+                <input type="checkbox" required> Asparagus<br>
+                <input type="checkbox" required> I Don't Know Pasta - <i>+$2.99</i><br>
+                <input type="checkbox" required> Side Salad - <i>+$2.99</i><br>
+                <br /><br />
+                <hr />
+                <br /><br />
+                <label>Hearty Chicken Ceasar</label>
+                <input type="number" min="0" required>
+                <br /><br />
+                Choose a side or add-on:<br>
+                <input type="checkbox" required> Extra Chicken - <i>+$3.99</i><br>
+                <input type="checkbox" required> Grilled Shrimp - <i>+$4.99</i><br>
+                <input type="checkbox" required> Extra Garlic Croutons - <i>+$.99</i><br>
+                <input type="checkbox" required> Extra Parmesean - <i>+$1.99</i><br>
+                <input type="checkbox" required> Extra Ceasar Dressing - <i>+$.50</i><br>
+                <input type="checkbox" required> None<br>
+                <br /><br />
+                <hr />
+                <br /><br />
+                <label>Valkyrie's Famous I Don't Know Pasta!</label>
+                <input type="number" min="0" required>
+                <br /><br />
+                Choose a side or protein:<br>
+                <input type="checkbox" required> Grilled Chicken - <i>+$3.99</i><br>
+                <input type="checkbox" required> Grilled Shrimp - <i>+$4.99</i><br>
+                <input type="checkbox" required> Extra Veggies - <i>+$1.99</i><br>
+                <input type="checkbox" required> Extra Garlic Bread - <i>+$1.99</i><br>
+                <input type="checkbox" required> Side Salad - <i>+$2.99</i><br>
+                <input type="checkbox" required> None<br>
+                <br /><br />
+                <hr />
+                <br /><br />
+                <label>Death by Chocolate</label>
+                <input type="number" min="0" required>
+                <br /><br />
+                Choose a side or add-on:<br>
+                <input type="checkbox" required> Extra Vanilla Scoop- <i>+$1.99</i><br>
+                <input type="checkbox" required> Extra Chocolate Sauce - <i>+$1.99</i><br>
+                <input type="checkbox" required> None<br>
+                <br /><br />
+                <hr /> 
+                <br /><br />
+                <label>Valkyrie's Famous Cheesecake</label>
+                <input type="number" min="0" required>
+                <br /><br />
+                Choose a side or add-on:<br>
+                <input type="checkbox" required> Berry Compote<br>
+                <input type="checkbox" required> Vanilla Sour Cream Topping<br>
+                <input type="checkbox" required> None<br>
+                <br /><br />
+                <textarea rows="7" cols="42" placeholder="Special Instructions or Requests?"></textarea>
+                <br /><br />
+                <button type="submit">Submit Order</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Made with love by SinistrValkyrie
+        </p>
+        <p>&copy; 2025 Valkyrie Eats</p>
+    </footer>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valkyrie's Nest</title>
+  <link href="CSS Final Project.CSS" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <img id="Logo" src="Sv Logo profile image-01 320.png" alt="Valkyrie's Nest Logo"/>
+    <h1>Welcome to Valkyrie's Nest</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="outside-wrapper">
+    <section>
+      <h2>About Us</h2>
+      <p>Valkyrie's Nest is a sanctuary for those seeking knowledge and adventure. Join us in exploring the realms of creativity and innovation.</p>
+    </section>
+    <section>
+      <h2>Our Services</h2>
+      <ul>
+        <li><a href="#Creative Workshops">Creative Workshops</a></li>
+        <li><a href="#Social Media Tutorials">Social Media Tutorials</a></li>
+        <li><a href="#Community Events">Community Events</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Projects</h2>
+      <p>Valkyrie's Nest is involved in various projects aimed at fostering creativity and community engagement.</p>
+      <ul>
+        <li><a href="#Website Projects">Website Projects</a></li>
+        <li><a href="#Community Forums">Community Forums</a></li>
+        <li><a href="#Twitch Plug-Ins">Twitch Plug-Ins</a></li>
+      </ul>
+    </section>
+    </div>
+  </main>
+  <footer>
+    <h3>Contact Us</h3>
+      <p>For inquiries, please email us at <a href="mailto:info@valkyriesnest.com">info@valkyriesnest.com</a>.</p>
+    <p>
+      Made with love by SinistrValkyrie
+    </p>
+    <p>&copy; 2025 Valkyrie's Nest</p>
+  </footer>
+</body>
+</html>
